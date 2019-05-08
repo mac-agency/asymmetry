@@ -62,7 +62,10 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Droid Sans", Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  /* [disabled]margin-bottom: 20px; */
 }
 
 ::-webkit-selection {
@@ -1586,7 +1589,7 @@ form label {
   overflow: hidden;
   z-index: 9;
   bottom: 0;
-  margin-bottom: 30px;
+  /* [disabled]margin-bottom: 30px; */
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
   -ms-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
